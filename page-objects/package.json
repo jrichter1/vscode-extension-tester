@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/redhat-developer/vscode-extension-tester#readme",
   "devDependencies": {
+    "@types/selenium-webdriver": "^3.0.15",
     "@types/clipboardy": "^2.0.1",
     "@types/fs-extra": "^8.0.1",
     "@types/node": "^11.15.3",
@@ -45,7 +46,6 @@
     "ts-essentials": "^3.0.5"
   },
   "peerDependencies": {
-    "@types/selenium-webdriver": "^3.0.15",
     "selenium-webdriver": "^3.0.0"
   }
 }
